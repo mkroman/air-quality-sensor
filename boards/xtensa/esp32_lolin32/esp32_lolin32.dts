@@ -120,6 +120,10 @@
 	status = "disabled";
 };
 
+&wifi {
+  status = "okay";
+};
+
 &flash0 {
 	status = "okay";
 	reg = <0x0 DT_SIZE_M(4)>;
